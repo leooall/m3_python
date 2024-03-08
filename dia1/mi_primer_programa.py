@@ -8,5 +8,5 @@ apellido2 = "paillama "
 edad = 31.5 
 #suma de string es concatenar
 print(nombre +  apellido1 + apellido2, edad, "mes", 3, "dia", 2)
-#se puede imprimir str con int, separados con una coma
+#se puede imprimir str con int en una misma linea, separados con una coma
 
