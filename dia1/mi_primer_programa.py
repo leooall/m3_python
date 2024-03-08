@@ -10,3 +10,9 @@ edad = 31.5
 print(nombre +  apellido1 + apellido2, edad, "mes", 3, "dia", 2)
 #se puede imprimir str con int en una misma linea, separados con una coma
 
+#interpolacion de cadenas (otra forma de imprimir) (f)
+mes = 3
+dia = 7
+año = 2024
+print(f"hola {nombre} {apellido1}el año es {año} del mes {mes} y el dia {dia}")
+
