@@ -16,3 +16,5 @@ dia = 7
 año = 2024
 print(f"hola {nombre} {apellido1}el año es {año} del mes {mes} y el dia {dia}")
 
+
+
