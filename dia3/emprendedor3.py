@@ -11,4 +11,4 @@ razon_utilidad_actual_y_anterior = utilidades_actuales / utilidades_año_anterio
 #el resultado de la division se puede mulpiplicar por 100 para pasarlo a % -> ver linea 12
 #razon_utilidad_actual_y_anterior = razon_utilidad_actual_y_anterior * 100
 
-print("La razón entre la utilidad actual y del año pasado es: ", round(razon_utilidad_actual_y_anterior,2))
+print("La razón entre la utilidad actual y del año anterior es: ", round(razon_utilidad_actual_y_anterior,2), "de crecimiento")
