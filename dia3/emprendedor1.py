@@ -1,4 +1,4 @@
-import math
+
 p = float(input("Ingrese precio de suscripcion: \n"))
 u = float(input("Ingrese numero de usuarios: \n"))
 gt = float(input("Ingrese gastos totales: \n"))
