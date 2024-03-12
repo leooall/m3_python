@@ -1,10 +1,11 @@
-p = float(input("Ingrese precio de suscripcion en clp: \n"))
-u = float(input("Ingrese numero de usuarios: \n"))
+precio_suscripcion = float(input("Ingrese precio de suscripcion en clp: \n"))
+usuarios = float(input("Ingrese numero de usuarios: \n"))
 gt = float(input("Ingrese gastos totales en clp: \n"))
 utilidades_año_anterior= float(input("Ingrese las utilidades del año anterior en clp: \n"))
 
 #utilidades = p * u - gt
-utilidades_actuales = p * u - gt
+utilidades_actuales = precio_suscripcion * usuarios - gt
+
 #se divide la utilidad actual por la ultilidad del año anterior para obtener la razon
 razon_utilidad_actual_y_anterior = utilidades_actuales / utilidades_año_anterior
 
