@@ -1,12 +1,14 @@
 #Solicitud de datos
-s_normal = float(input("Ingrese precio de suscripcion normal en clp: \n"))
-s_premium = float(input("Ingrese precio de suscripcion premium en clp: \n"))
-u_normales = float(input("Ingrese numero de usuarios normales: \n"))
-u_premium= float(input("Ingrese numero de usuarios premium: \n"))
-gt = float(input("Ingrese gastos totales en clp: \n"))
+suscripcion = float(input("Ingrese precio de suscripcion en clp: \n"))
+u_normales = int(input("Ingrese numero de usuarios normales: \n"))
+u_premium= int(input("Ingrese numero de usuarios premium: \n"))
+gastos_totales = float(input("Ingrese gastos totales en clp: \n"))
 
 #Calculo de utilidades
-utilidades = (s_normal * u_normales) + (s_premium * u_premium) - gt
+utilidades_usuarios_normales = suscripcion * u_normales
+utilidad_usuarios_premium = (1.5 * suscripcion * u_premium)
+
+utilidades = (utilidades_usuarios_normales + utilidad_usuarios_premium) - gastos_totales
 
 #Salida de datos
-print("La utilidad es: ", round(utilidades, ), "Clp")
+print(f"La utilidad es: {round(utilidades, )} Clp")
