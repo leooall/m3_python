@@ -1,3 +1,4 @@
+#Solicitud de datos
 precio_suscripcion = float(input("Ingrese precio de suscripcion en clp: \n"))
 usuarios = float(input("Ingrese numero de usuarios: \n"))
 gt = float(input("Ingrese gastos totales en clp: \n"))
