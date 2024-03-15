@@ -1,12 +1,12 @@
-#entrada de datos
-peso = int(input("Ingresar peso en Kilogramos: \n"))
-talla = int(input("Ingresar talla en centimetros: \n"))
 
+#entrada de datos
+peso = float(input("Ingresar peso en Kilogramos: \n"))
+estatura = float(input("Ingresar talla en centimetros: \n"))
 #conversion de cm a mts como lo pide la formula
-talla = talla / 100
+estatura = estatura / 100
 
 #aplicacion de la formula imc=peso/talla2
-imc = round(peso / (talla * talla),2)
+imc = round(peso / (estatura * estatura),2)
 
 #condicionales con sus respectivas salidas de datos
 if imc < 18.5 :
@@ -19,8 +19,9 @@ elif imc >= 30 and imc < 35 :
     print(f"Su IMC es {imc}\nLa clasificacion OMS es Obesidad Grado I")
 elif imc >= 35 and imc < 40 :
     print(f"Su IMC es {imc}\nLa clasificacion OMS es Obesidad Grado II")
-elif imc > 40 :
+else :
     print(f"Su IMC es {imc}\nLa clasificacion OMS es Obesidad Grado III")
+
 
 
 
