@@ -41,6 +41,7 @@ elif jugada == "tijera" and jugada_computador == "papel" :
 elif jugada == "tijera" and jugada_computador == "piedra" :
     print("Tu jugaste Tijera \nComputador jugó Piedra \nPerdiste =(")
 
-
+else :
+    print("Argumento inválido: Debe ser piedra, papel o tijera.")
 
 

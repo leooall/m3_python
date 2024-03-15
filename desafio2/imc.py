@@ -23,3 +23,4 @@ elif imc > 40 :
     print(f"Su IMC es {imc}\nLa clasificacion OMS es Obesidad Grado III")
 
 
+
