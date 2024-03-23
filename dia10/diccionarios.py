@@ -53,8 +53,7 @@ print(notas)
 #cuidado colision de igualdad de llaves "camila"
 # {'camila': 3, 'felipe': 6, 'mijahil': 9, 'alexis': 6, 'yasna': 6}
 
+print("*****")
 notas2.update(notas)
-print(notas2)
-
-
+print(notas2)#{'alexis': 6, 'yasna': 6, 'camila': 7, 'antonio': 7, 'felipe': 6, 'mijahil': 9}
 

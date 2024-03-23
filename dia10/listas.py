@@ -1,12 +1,15 @@
 """
-listas
-pueden tener distintos tipos de elementos
+lista: conjunto de datos, ordenados segun su ingreso, separados por coma, 
+el primer elemento, esta en la posicion cero, pueden contener distintos tipos de elementos
 son mutables
-se usan los [] para definir una variable tipo lista
+se usan los [] para definir una variable de tipo lista
+**indice => la posicion de los elementos
 
-
+la primera posicion SIEMPRE es CERO
+la ultima posicion esta dada por ultimaPosicion= (cantidad_elementos - 1) o lista[-1]
+para acceder a los elementos utilizamos las posiciones; lista[posicion]
 no existen indices sin elementos en python
-los metodos  __nombre__ se les llama magic built-in o dunders
+los metodos con __nombre__, se les llama magic built-in o dunders
 """
 
 colores = ["verde", "rojo", "verde", "morado"]
