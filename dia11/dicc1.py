@@ -75,7 +75,7 @@ pares_impares ={
     "impar":{"uno":1,"tres":3,"cinco":5,"siete":7,"nueve":9},
 }
 
-print(pares_impares)
+print(pares_impares)#{'pares': {2: 'dos', 4: 'cuatro', 6: 'seis', 8: 'ocho', 10: 'diez'}, 'impar': {'uno': 1, 'tres': 3, 'cinco': 5, 'siete': 7, 'nueve': 9}}
 
 #imprimir el valor "seis"
 print(pares_impares["pares"])#{2: 'dos', 4: 'cuatro', 6: 'seis', 8: 'ocho', 10: 'diez'}
