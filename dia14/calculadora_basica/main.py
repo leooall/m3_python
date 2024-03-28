@@ -1,8 +1,9 @@
 
 from os import system
-import suma
-import resta as r
-from input import captura_de_datos
+import suma # Importamos modulo suma
+import resta as r #importamos modulo resta
+from input import captura_de_datos #Importamos la función de nuestro módulo "input" para obtener los datos 
+
 print("calculadora basica\n")
 opcion = int(input("""Esto es una calculadora:
 ¿Qué operación le gustaría realizar?
@@ -14,7 +15,6 @@ system("cls")
 if opcion == 1 :
     x, y = captura_de_datos()
     suma.sumar(x, y)
-    
 elif opcion == 2:
     x, y = captura_de_datos()
     r.restar(x, y)

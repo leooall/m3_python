@@ -6,7 +6,7 @@ def calcular_promedio(velocidades):
 #def. de la func. para calcular valores sobre el promedio
 def velocidades_por_encima_del_promedio(velocidades):
     promedio = calcular_promedio(velocidades)
-    return [i for i, v in enumerate(velocidades) if v > promedio] #compression
+    return [i for i, v in enumerate(velocidades) if v > promedio] 
 
 vel_sobre_el_promedio = velocidades_por_encima_del_promedio(velocidades)
 print(f"Las posiciones de las correas transportadoras con velocidades por encima del promedio son: {vel_sobre_el_promedio}")

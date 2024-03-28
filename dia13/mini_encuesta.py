@@ -1,4 +1,4 @@
-""" en miniencuesta2.py esta optimizado***
+#en miniencuesta2.py esta optimizado***
 preguntas = ['Enunciado Pregunta 1','Enunciado Pregunta 2','Enunciado Pregunta 3']
 
 respuestas = []
@@ -29,5 +29,5 @@ print(f'La respuesta a la pregunta 2 fue {respuestas[1]}')
 print(f'La respuesta a la pregunta 3 fue {respuestas[2]}')
 
 print('Muchas gracias por responder la encuesta')
-"""
+
 

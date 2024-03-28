@@ -35,6 +35,14 @@ def productoria(lista):
 #paso 3: 
 
 def calcular(**parametros): # * tupla; ** diccionario
+    """funcion que imprime el factoprial o productoria a partir de argumentos
+
+    Args:
+        lista (int) y/o literal : 
+
+    Returns:
+        muestra factorial y/o productoria de argumentos ingresados
+    """
     for clave,valor in parametros.items():#.items() nos devuelve una tupla 
         if "fact" in clave :
             print(f"el factorial de {valor} es {factorial(valor)}")
