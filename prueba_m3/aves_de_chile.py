@@ -1,3 +1,5 @@
+#PROFE; PARA PODER REALIZAR ESTA PRUEBA, RECURRI A LA IA DESDE LA LINEA 13 EN ADELANTE. ESTUVO DIFICIL PARA MI
+
 import requests  # Importamos la librería requests para realizar solicitudes HTTP
 from string import Template  # Importamos Template de la librería string para generar el HTML
 
